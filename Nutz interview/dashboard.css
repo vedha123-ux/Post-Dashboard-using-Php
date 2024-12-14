@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.post {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #777;
+}
+
+.post-content {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.post-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.post-video {
+    margin-top: 10px;
+}
+
+.post-actions {
+    margin-top: 20px;
+}
+
+.btn-edit, .btn-delete {
+    padding: 5px 10px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.btn-edit:hover, .btn-delete:hover {
+    background: #0056b3;
+}
+
+.btn-create {
+    padding: 10px 15px;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn-create:hover {
+    background: #218838;
+}
